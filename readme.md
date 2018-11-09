@@ -6,8 +6,8 @@ Map
 
 | Key                | Bound function                |
 |--------------------|-------------------------------|
-| <kbd><right></kbd> | `dired-find-file`             |
-| <kbd><left></kbd>  | `dired-find-parent-directory` |
+| <kbd>&rightarrow</kbd> | `dired-find-file`             |
+| <kbd>&leftarrow</kbd>  | `dired-find-parent-directory` |
 
 And for [evil](https://github.com/emacs-evil/evil) users,
 
