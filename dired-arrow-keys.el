@@ -68,12 +68,13 @@ and for `evil' users, map
 
     \\[evil-forward-char] to `dired-find-file'
     \\[evil-backward-char] to `dired-find-parent-directory'"
+  (interactive)
   (define-key dired-mode-map (kbd "<right>") 'dired-find-file)
   (define-key dired-mode-map (kbd "<left>") 'dired-find-parent-directory)
   (eval-after-load 'evil
-    (progn
-      (define-key dired-mode-map (vector 'remap 'evil-forward-char) 'dired-find-file)
-      (define-key dired-mode-map (vector 'remap 'evil-backward-char) 'dired-find-parent-directory))))
+    '(progn
+       (define-key dired-mode-map (vector 'remap 'evil-forward-char) 'dired-find-file)
+       (define-key dired-mode-map (vector 'remap 'evil-backward-char) 'dired-find-parent-directory))))
 
 
 (provide 'dired-arrow-keys)
