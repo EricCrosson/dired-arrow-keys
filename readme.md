@@ -1,5 +1,4 @@
-# dired-arrow-keys [![Build Status](https://travis-ci.org/EricCrosson/dired-arrow-keys.svg?branch=master)](https://travis-ci.org/EricCrosson/dired-arrow-keys)
-[![Version](https://img.shields.io/github/tag/EricCrosson/dired-arrow-keys.svg)](https://github.com/EricCrosson/dired-arrow-keys/releases)
+# dired-arrow-keys [![Build Status](https://travis-ci.org/EricCrosson/dired-arrow-keys.svg?branch=master)](https://travis-ci.org/EricCrosson/dired-arrow-keys) [![Version](https://img.shields.io/github/tag/EricCrosson/dired-arrow-keys.svg)](https://github.com/EricCrosson/dired-arrow-keys/releases)
 
 > Navigate Dired buffers with the arrow keys
 
