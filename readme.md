@@ -4,12 +4,12 @@
 
 Map
 
-| Key                | Bound function                |
-|--------------------|-------------------------------|
+| Key                     | Bound function                |
+|-------------------------|-------------------------------|
 | <kbd>&rightarrow;</kbd> | `dired-find-file`             |
 | <kbd>&leftarrow;</kbd>  | `dired-find-parent-directory` |
 
-And for [evil](https://github.com/emacs-evil/evil) users,
+And for [evil](https://github.com/emacs-evil/evil) users, map
 
 | Key                | Bound function                |
 |--------------------|-------------------------------|
@@ -34,6 +34,10 @@ Or manually, after downloading into your `load-path`
 (require 'dired-arrow-keys)
 (dired-arrow-keys-install)
 ```
+
+## Related
+
+- [dired-smart-jump](https://github.com/EricCrosson/dired-smart-jump)
 
 ## License
 
