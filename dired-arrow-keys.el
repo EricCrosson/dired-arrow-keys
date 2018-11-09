@@ -3,7 +3,7 @@
 ;;; Copyright (C) 2018  Free Software Foundation, Inc.
 ;;
 ;; Author: Eric Crosson <eric.s.crosson@utexas.com>
-;; Version: 0.0.1
+;; Version: 1.0.0
 ;; Keywords: convenience
 ;; URL: https://github.com/EricCrosson/dired-arrow-keys
 ;; Package-Requires: ((emacs "24"))
